@@ -1,4 +1,5 @@
 
+}
 }export default function handler(req, res) {
   const VERIFY_TOKEN = "taxci2024";
 
@@ -16,3 +17,4 @@
     res.sendStatus(404);
   }
 }
+
