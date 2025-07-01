@@ -1,6 +1,7 @@
 
 }
-}export default function handler(req, res) {
+}// commit for redeploy test - Vicente
+export default function handler(req, res) {
   const VERIFY_TOKEN = "taxci2024";
 
   if (req.method === "GET") {
@@ -17,4 +18,3 @@
     res.sendStatus(404);
   }
 }
-
