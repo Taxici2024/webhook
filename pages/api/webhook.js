@@ -1,5 +1,5 @@
 
-}export default function handler(req, res) {
+export default function handler(req, res) {
   const VERIFY_TOKEN = "taxci2024";
 
   if (req.method === "GET") {
